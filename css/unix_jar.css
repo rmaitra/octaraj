@@ -1,0 +1,38 @@
+body{
+	font-size: 15px; font-family: monospace;
+	background-color:#000;
+	/*background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;*/
+}
+#prompt{
+	font-weight:bold;
+	color:#888;
+}
+#cursor{
+	font-size: 15px;
+}
+#terminal{
+	color:#fff;
+	position:absolute;
+	left:100px;
+	width:1400px;
+	padding:30px;
+	opacity:0.9;
+}
+#last_output{
+	color:#33FF33;
+}
+#notes{
+	color:#555;
+	font-size: 12px;
+	position:fixed;
+	bottom:10px;
+}
+
